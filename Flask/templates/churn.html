@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    </head>
+    <body>
+        <form action="/predict" method="POST" class="main-form needs-validation" novalidate>
+           <!--
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="ROWNUMBER">ROWNUMBER</label>
+                        <input type="text" name="ROWNUMBER" id="ROWNUMBER" class="form-control is-invalid">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="CUSTOMERID">CUSTOMERID</label>
+                        <input type="text" name="CUSTOMERID" id="CUSTOMERID" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="SURNAME">SURNAME</label>
+                        <select name="SURNAME" id="SURNAME" class="form-control">
+                            <option value="select" default>SELECT</option>
+                            <option value="1">SMITH</option>
+                            <option value="2">SCOTT</option>
+                            <option value="3">MARTIN</option>
+                            <option value="4">WALKER</option>
+                            <option value="5">BROWN</option>
+                            <option value="6">MOODY</option>
+                        </select>
+                    </div>
+                </div>
+        -->
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="CREDITSCORE">CREDITSCORE</label>
+                        <input type="text" name="CREDITSCORE" id="CREDITSCORE" class="form-control">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="GEOGRAPHY">GEOGRAPHY</label>
+                        <select name="GEOGRAPHY" id="GEOGRAPHY" class="form-control">
+                            <option value="select" default>SELECT</option>
+                            <option value="0">FRANCE</option>
+                            <option value="2">SPAIN</option>
+                            <option value="1">GERMANY</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="GENDER">GENDER</label>
+                        <select name="GENDER" id="GENDER" class="form-control">
+                            <option value="select" default>SELECT</option>
+                            <option value="1">MALE</option>
+                            <option value="0">FEMALE</option>
+                        </select>                        
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="AGE">AGE</label>
+                        <input type="text" name="AGE" id="AGE" class="form-control is-invalid">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="TENURE">TENURE</label>
+                        <input type="text" name="TENURE" id="TENURE" class="form-control">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="BALANCE">BALANCE</label>
+                        <input type="text" name="BALANCE" id="BALANCE" class="form-control is-invalid">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="NUMOFPRODUCTS">NUMOFPRODUCTS</label>
+                        <input type="text" name="NUMOFPRODUCTS" id="NUMOFPRODUCTS" class="form-control">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="HASCRCARD">HASCRCARD</label>
+                        <input type="text" name="HASCRCARD" id="HASCRCARD" class="form-control is-invalid">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="ISACTIVEMEMBER">ISACTIVEMEMBER</label>
+                        <input type="text" name="ISACTIVEMEMBER" id="ISACTIVEMEMBER" class="form-control">
+                    </div>
+                </div>
+        <div class="col">
+            <div class="form-group">
+                <label for="ESTIMATEDSALARY">ESTIMATEDSALARY</label>
+                <input type="text" name="ESTIMATEDSALARY" id="ESTIMATEDSALARY" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <center><button type="submit" class="btn btn-primary">Submit</button></center>
+
+
+        </form>
+    <b>{{x}}</b>
+    </body>
+</html>
